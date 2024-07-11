@@ -2,4 +2,100 @@
     margin : 0;
     padding : 0;
     box-sizing: border-box;
+    color: #ff7300;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--color-fonce);
+    text-shadow: 1px 1px 2px var(color-pal);
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    display: flex;
+    position: fixed;
+}
+
+header {
+    position: fixed;
+    z-index: 10;
+    background-color: #000000;
+}
+
+#header-logo {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    width: 20vw;
+    display: block;
+    position: fixed;
+    top: 5vh;
+}
+
+#header-titre {
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: gold;
+
+}
+
+#header-haut {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 15px;
+    width: 25vw;
+    height: 100vh;
+}
+
+/*PARTIE CENTRALE*/
+
+#central {
+    position: relative;
+    left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: start;
+
+}
+
+main {
+    position: relative;
+    top: 33vh;
+    left: 20vw;
+    width: 80vw;
+    padding: 30px;
+    padding-right: 30px;
+    padding-left: 25px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: blue;
+  }
+
+#article {
+
 }
